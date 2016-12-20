@@ -1,7 +1,8 @@
-$("#hide").click(function(){
-    $("body").hide();
-});
-
-$("#show").click(function(){
-    $("body").show();
-});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("div").hide();
+    });
+    $("#show").click(function(){
+        $("div").show();
+    });
+  });
